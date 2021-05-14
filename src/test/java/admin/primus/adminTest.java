@@ -34,6 +34,8 @@ driver.findElement(By.cssSelector("input[id='login']")).click();
 String expected=driver.getTitle();
 assertEquals(driver.getTitle(),expected);
 System.out.println("testing");	System.out.println("testing");	System.out.println("testing");
+System.out.println("");	System.out.println("");	System.out.println("");
+
 
 }
 @Test
