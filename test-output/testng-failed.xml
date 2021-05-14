@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="url" value="http://primusbank.qedgetech.com/"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="admin.primus.adminTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- admin.primus.adminTest -->
+      <class name="admin.primus.multipleTest">
+        <methods>
+          <include name="loginPrimus" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- admin.primus.multipleTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
