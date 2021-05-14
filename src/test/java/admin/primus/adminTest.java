@@ -33,6 +33,7 @@ driver.findElement(By.cssSelector("#txtPword")).sendKeys("Admin");
 driver.findElement(By.cssSelector("input[id='login']")).click();
 String expected=driver.getTitle();
 assertEquals(driver.getTitle(),expected);
+System.out.println("testing");	System.out.println("testing");	System.out.println("testing");
 
 }
 @Test
