@@ -48,9 +48,9 @@ public void logout()
 	String expected=driver.getTitle();
 	System.out.println(expected);
 	assertEquals(driver.getTitle(), expected);
-	System.out.println("develop 1");
-	System.out.println("develop 2");
-	System.out.println("develop 3");
+	System.out.println("prakash");
+	System.out.println("tirupathi");
+	System.out.println("reddy");
 }
 @BeforeMethod
 @Parameters("url")
