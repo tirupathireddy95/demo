@@ -44,6 +44,13 @@ public class multipleTest {
 			String expected=driver.getTitle();
 			assertEquals(driver.getTitle(),expected);
 		}
+		@Test
+		public void gitdevelop2()
+		{
+			System.out.println("gitdevelop2");
+			System.out.println("gitdevelop2");
+			System.out.println("gitdevelop2");
+		}
 		
 		@AfterMethod
 		public void closeApp()

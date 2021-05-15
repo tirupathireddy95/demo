@@ -48,6 +48,9 @@ public void logout()
 	String expected=driver.getTitle();
 	System.out.println(expected);
 	assertEquals(driver.getTitle(), expected);
+	System.out.println("develop 1");
+	System.out.println("develop 2");
+	System.out.println("develop 3");
 }
 @BeforeMethod
 @Parameters("url")
@@ -57,6 +60,13 @@ public void launchApp(String primus)
 	 driver=new ChromeDriver();
 	driver.get(primus);
 }
-
+@Test
+public void gitdevelop()
+     {
+	System.out.println("gitdevelop");
+	System.out.println("gitdevelop");
+	
+	
+     }
 
 }
